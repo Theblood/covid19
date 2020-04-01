@@ -47,7 +47,7 @@ class App extends Component {
         data: null,
         dataLoaded: false,
         lang: 'en',
-        darkMode: true,
+        darkMode: false,
         mapDimensions: {
             width: -1,
             height: -1
