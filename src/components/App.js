@@ -158,7 +158,7 @@ class App extends Component {
 
     scaleToggle = (newScale) => this.setState({ scale: newScale })
 
-    languageToggle = () => this.setState({ lang: this.state.lang === 'en' ? 'zh' : 'en' })
+    //languageToggle = () => this.setState({ lang: this.state.lang === 'en' ? 'zh' : 'en' })
 
     fullMapToggle = () => {
         this.setState({ fullMap: !this.state.fullMap })
@@ -226,7 +226,6 @@ class App extends Component {
                                     <NavBar
                                         {...this.state}
                                         scaleToggle={this.scaleToggle}
-                                        languageToggle={this.languageToggle}
                                         darkModeToggle={this.darkModeToggle}
                                         reset={this.reset}
                                     />
